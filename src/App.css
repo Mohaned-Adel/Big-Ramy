@@ -1,0 +1,10 @@
+.main-title {
+  margin: 0px;
+  font-family: Barlow, Arial;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1.167;
+  align-self: flex-start;
+  font-size: 46px;
+  color: rgb(255, 255, 255);
+}

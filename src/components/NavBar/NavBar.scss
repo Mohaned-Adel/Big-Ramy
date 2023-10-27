@@ -1,0 +1,10 @@
+.navbar-wrapper {
+  .nav-list {
+    a {
+      &.active {
+        color: var(--mainColor);
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.course-section {
+  .course-price {
+    margin: 0px;
+    font-family: Barlow;
+    line-height: 1.5;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 28px;
+    .price-amount {
+      font-weight: 600;
+      font-size: 46px;
+      margin-inline: 7px;
+    }
+  }
+  .course-actions {
+    .cart-action-wrapper {
+      .cart-action {
+        border: 1px solid var(--mainColor);
+        svg {
+          color: var(--mainColor);
+          user-select: none;
+          width: 1em;
+          height: 1em;
+          display: inline-block;
+          fill: currentcolor;
+          flex-shrink: 0;
+          transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+  .course-sub-info {
+    background-color: rgb(19, 19, 19);
+    .course-duration {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      width: fit-content;
+      padding: 24px;
+      align-items: flex-start;
+      border: 1px solid rgba(255, 255, 255, 0.54);
+      .sub-info-icon {
+        color: var(--mainColor);
+        font-size: 24px;
+        margin-top: 5px;
+      }
+    }
+  }
+}

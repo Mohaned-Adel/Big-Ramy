@@ -1,0 +1,21 @@
+.header {
+  .lang-line-break {
+    margin: 0px;
+    flex-shrink: 0;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  .navbar-wrapper {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+  }
+
+  .cart-wrapper {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}

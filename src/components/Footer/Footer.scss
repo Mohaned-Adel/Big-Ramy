@@ -1,0 +1,150 @@
+.footer {
+  background-color: #131313;
+
+  .footer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .newsetter-label {
+      p {
+        color: #ddd;
+      }
+      h6 {
+        font-size: 16px;
+      }
+    }
+    .newsetter-input {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 0;
+
+      input {
+        width: 400px;
+        height: 40px;
+        border: 1px solid #555;
+        padding: 0 10px;
+        outline: none;
+      }
+
+      button {
+        width: 100px;
+        height: 40px;
+        border: none;
+        background: var(--mainColor);
+        // color: var(--text-color);
+        font-family: bold;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  }
+
+  .footer-body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    gap: 100px;
+
+    .footer-about {
+      width: 35%;
+
+      p {
+        color: #ddd;
+        font-size: 14px;
+      }
+
+      h6 {
+        font-size: 14px;
+        margin: 20px 0;
+      }
+      ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+
+        li {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: var(--mainColor);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+
+          a {
+            color: var(--mainColor);
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .footer-links {
+      a {
+        color: #ddd;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 30px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          color: var(--mainColor);
+        }
+      }
+    }
+  }
+
+  .footer-rights {
+    background: #000;
+    p {
+      padding: 5px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .footer {
+    .footer-head {
+      flex-direction: column;
+      gap: 20px;
+
+      .newsetter-label {
+        text-align: center;
+      }
+      .newsetter-input {
+        justify-content: center;
+        gap: 10px;
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+    .footer-body {
+      flex-direction: column;
+      gap: 20px;
+
+      .footer-about {
+        width: 100%;
+        text-align: center;
+      }
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    }
+  }
+}
